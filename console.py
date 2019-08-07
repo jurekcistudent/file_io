@@ -1,0 +1,7 @@
+f = open("data.txt", "r+")
+f. write("Over 1")
+f.seek(14)
+f.write("Over 2")
+f.seek(27)
+f.write("\nAddedLine")
+f.close()
